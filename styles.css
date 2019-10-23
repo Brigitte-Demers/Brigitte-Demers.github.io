@@ -49,7 +49,7 @@
   position: absolute;
   top: 500px;
   left: 520px;
-  width: 1330px;
+  width: 915px;
   border: 5px solid grey;
   padding: 20px;
   background-color: grey;
@@ -101,7 +101,7 @@ th {
 #school2 {
   border: 5px solid grey;
   background-color: grey;
-  width: 1270px;
+  width: 855px;
   padding: 25px;
   position: absolute;
   top: 1130px;
@@ -112,7 +112,7 @@ th {
 .professional {
   width: 101.3%;
   background-color: lightblue;
-  height: 1110px;
+  height: 1210px;
 }
 
 .Personal {
@@ -120,7 +120,7 @@ th {
   top: 1430px;
   background-color: grey;
   width: 100.15%;
-  height: 1170px;
+  height: 1370px;
 }
 
 .artlink {
@@ -150,7 +150,7 @@ th {
   font-size: 30px;
   font-family: 'Press Start 2P';
   border: 5px solid blue;
-  width: 900px;
+  width: 985px;
   position: absolute;
   top: 5px;
   left: 420px;
@@ -188,7 +188,7 @@ th {
 
 #fire {
   position: absolute;
-  top: 2000px;
+  top: 2100px;
   left: 490px;
   heigth: 200px;
   width: 700px;
@@ -201,8 +201,8 @@ th {
   color: black;
   position: absolute;
   text-align: center;
-  left: 285px;
-  top: 320px;
+  left: 385px;
+  top: -20px;
   border: 5px solid grey;
   background-color: grey;
   padding: 7px;
