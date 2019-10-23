@@ -1,0 +1,323 @@
+#hrone {
+  size: 3;
+  position: absolute;
+  top: 311px;
+  width: 100%;
+  height: 3px;
+}
+
+#hrtwo {
+  position: absolute;
+  top: 373px;
+  left: 285px;
+  size: 3;
+  width: 65%;
+  height: 3px;
+}
+
+#imagegit {
+  position: absolute;
+  top: 400px;
+  height: 500px;
+  width: 500px;
+}
+
+#about {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Press Start 2P';
+  position: absolute;
+  top: 350px;
+  left: 520px;
+}
+
+#titlebar {
+  font-family: 'Press Start 2P';
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 230px;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+}
+
+.border {
+  font-family: 'Press Start 2P';
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  top: 500px;
+  left: 520px;
+  width: 1330px;
+  border: 5px solid grey;
+  padding: 20px;
+  background-color: grey;
+  border-radius: 70px;
+}
+
+table {
+  font-family: 'Press Start 2P';
+  font-size: 25px;
+  position: absolute;
+  width: 497px;
+  height: 260px;
+  top: 980px;
+  margin: 0px;
+  border: 5px solid blue;
+  border-collapse: collapse;
+}
+table,
+td {
+  border: 5px solid blue;
+  vertical-align: center;
+  margin: 0px;
+}
+table,
+th {
+  border: 5px solid blue;
+  vertical-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#Work {
+  font-size: 35px;
+  font-family: 'Press Start 2P';
+  position: absolute;
+  top: 900px;
+  left: 95px;
+}
+
+#school {
+  font-size: 40px;
+  font-family: 'Press Start 2P';
+  position: absolute;
+  top: 1070px;
+  left: 680px;
+  text-align: center;
+}
+
+#school2 {
+  border: 5px solid grey;
+  background-color: grey;
+  width: 1270px;
+  padding: 25px;
+  position: absolute;
+  top: 1130px;
+  left: 570px;
+  border-radius: 50px;
+}
+
+.professional {
+  width: 101.3%;
+  background-color: lightblue;
+  height: 1110px;
+}
+
+.Personal {
+  position: absolute;
+  top: 1430px;
+  background-color: grey;
+  width: 100.15%;
+  height: 1170px;
+}
+
+.artlink {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  border: solid blue;
+  background-color: blue;
+  height: 30px;
+  width: 20px;
+  padding: 10px;
+  font-family: 'Press Start 2P';
+  position: relative;
+  top: 15px;
+  left: 30px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.list {
+  font-family: 'Press Start 2P';
+  font-size: 30px;
+}
+
+#perone {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Press Start 2P';
+  border: 5px solid blue;
+  width: 900px;
+  position: absolute;
+  top: 5px;
+  left: 420px;
+}
+
+
+.collegelink {
+  font-size: 40px;
+  position: absolute;
+  top: 87px;
+  left: 760px;
+}
+
+.resume {
+  font-family: 'Press Start 2P';
+  font-size: 40px;
+  position: absolute;
+  top: 155px;
+  left: 750px;
+}
+
+.artwork {
+  font-size: 40px;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 400px;
+  left: 80px;
+  border: solid blue;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: blue;
+}
+
+#fire {
+  position: absolute;
+  top: 2000px;
+  left: 490px;
+  heigth: 200px;
+  width: 700px;
+}
+
+#port {
+  font-size: 40px;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  text-align: center;
+  left: 425px;
+  top: -20px;
+  border: 5px solid grey;
+  background-color: grey;
+  padding: 7px;
+}
+
+#pa {
+  position: absolute;
+  top: 225px;
+  left: 620px;
+  font-size: 40px;
+  font-family: 'Press Start 2P';
+  text-align: center;
+}
+
+#imone {
+  border-radius: 20px;
+  padding: 5px;
+  border-color: blue;
+  box-shadow: 0 0 25px 1px rgba(0, 140, 186, 0.5);
+  position: absolute;
+  left: 15px;
+  height: 600px;
+}
+
+#imtwo {
+  border-radius: 20px;
+  padding: 5px;
+  border-color: blue;
+  box-shadow: 0 0 25px 1px rgba(0, 140, 186, 0.5);
+  position: absolute;
+  left: 650px;
+  height: 600px;
+}
+
+#imthree {
+  border-radius: 20px;
+  padding: 5px;
+  border-color: blue;
+  box-shadow: 0 0 25px 1px rgba(0, 140, 186, 0.5);
+  position: absolute;
+  left: 1285px;
+  height: 600px;
+}
+
+#imfour {
+  border-radius: 20px;
+  padding: 5px;
+  border-color: blue;
+  box-shadow: 0 0 25px 1px rgba(0, 140, 186, 0.5);
+  position: absolute;
+  top: 620px;
+  left: 15px;
+  height: 600px;
+}
+
+#imfive {
+  border-radius: 20px;
+  padding: 5px;
+  border-color: blue;
+  box-shadow: 0 0 25px 1px rgba(0, 140, 186, 0.5);
+  position: absolute;
+  top: 620px;
+  left: 650px;
+  height: 600px;
+}
+
+#imsix {
+  border-radius: 20px;
+  padding: 5px;
+  border-color: blue;
+  box-shadow: 0 0 25px 1px rgba(0, 140, 186, 0.5);
+  position: absolute;
+  top: 620px;
+  left: 1285px;
+  height: 600px;
+  width: 600px;
+}
+
+.imagescor {
+  position: absolute;
+  top: 450px;
+  border: 5px black;
+  border-radius: 20px;
+  background-color: black;
+  width: 1885px;
+  height: 1220px;
+  padding: 10px;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#hob {
+  position: absolute;
+  top: 155px;
+  left: 43px;
+}
+
+#pers {
+  position: absolute;
+  top: 5px;
+  left: 480px;
+  font-size: 60px;
+  font-family: 'Press Start 2P';
+  text-align: center;
+}
+
+#perone {
+  position: absolute;
+  top: 150px;
+  left: 480px;
+  width: 1400px;
+}
+
+#skull {
+  position: absolute;
+  top: 115px;
+  left: 20px;
+  height: 100px;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+<head>
+  <meta charset = "utf-8">
+  <title> Contact Page </title>
+  <style>
+    #myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
+}
+</style>
+
+</head>
+<body style = "background-color: lightblue;">
+
+  <p>
+  <button onclick="myMove()">Click Me</button>
+  </p>
+
+  <h1>My First JavaScript Animation</h1>
+
+  <div id ="myContainer">
+      <div id ="myAnimation">My animation will go here</div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+
+  </canvas>
+
+  <form>
+cities: <BR>
+  <select>
+    <option value = "1">Cornwall</option>
+    <option value = "2" selected>Ottawa</option>
+    <option value = "3">Toronto</option>
+    <option value = "4">Montreal</option>
+    <option value = "5">Vancouver</option>
+  </select>
+  <BR><BR>
+
+
+
+
+
+<p id = "textblock"></p>
+
+
+
+
+Colour: <BR>
+<input type = "radio" name = "color" value = "red"> red
+<BR>
+
+<input checked type = "radio" name = "color" value = "yellow"> yellow
+<BR>
+
+  <input type = "radio" name = "color" value = "green"> green
+  <BR>
+
+ Skill Set:
+<BR>
+<input type = "Skill 1" name = "C++" value = "1"> C++
+<BR>
+  <input type = "Skill 2" name = "Java Script" value = "2"> Java Script
+  <BR>
+    <input type = "Skill 3" name = "HTML" value = "3"> HTML
+    <BR>
+      <input type = "Skill 4" name = "CSS" value = "4"> CSS
+      <BR>
+
+<input type = "date">
+<BR>
+<label>username:</label>
+<input type = "text" name = "username">
+<BR><BR>
+  <label>password:</label>
+  <input type = "password" name= "password">
+<BR><BR>
+
+
+
+
+    to: <input type = "text" name = "toemail">
+    <BR>
+    from: <input type = "text" name = "fromemail">
+    <BR>
+      message: <textarea name = "message" rows = "10" cols = "30">
+        Sup dudes?
+        </textarea>
+        <BR>
+    <input type = "color">
+
+    </form>
+
+</body>
+</html>
+
+
+
+<script>
+
+  document.title "Brigitte";
+  document.getElementById("textblock").innerHTML = Date();
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+
+
+
+
+function myMove() {
+  var elem = document.getElementById("myAnimation");
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.top = pos + 'px';
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+
+  </script>
